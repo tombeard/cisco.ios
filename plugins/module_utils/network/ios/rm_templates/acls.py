@@ -162,6 +162,7 @@ class AclsTemplate(NetworkTemplate):
                     \s*access*
                     \s*list*
                     \s*(?P<acl_name>\S+)*
+                    \s*(?:\(Compiled\))?
                     $""",
                 re.VERBOSE,
             ),
